@@ -17,29 +17,5 @@
                 &kp D    &kp E    &kp F    &kp E
             >;
         };
-
-        num_layer {
-            bindings = <
-                &trans   &kp N7 &kp N8 &kp N9
-                &trans   &kp N4 &kp N5 &kp N6
-                &lt 3 N0 &kp N1 &kp N2 &kp N3
-            >;
-        };
-
-        lower_layer {
-            bindings = <
-                &bt BT_CLR &none        &sys_reset       &bootloader                    &sys_reset
-                &trans                  &bt BT_SEL 3     &bt BT_SEL 4 &none             &sys_reset
-                &none                   &bt BT_SEL 0     &bt BT_SEL 1 &bt BT_SEL 2      &sys_reset
-            >;
-        };
-
-        raise_layer {
-            bindings = <
-                &kp 0x68 &kp 0x69 &kp 0x6A &kp 0x6B
-                &kp 0x6C &kp 0x6D &kp 0x6E &kp 0x6F
-                &trans   &kp 0x70 &kp 0x71 &kp 0x72
-            >;
-        };
     };
 };
