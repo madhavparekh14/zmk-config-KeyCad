@@ -1,0 +1,8 @@
+file_format: "1"
+id: boardsource3x4
+name: boardsource3x4
+type: shield
+url: https://github.com/madhavparekh14/zmk-config-KeyCad
+requires: [pro_micro]
+features:
+  - keys
