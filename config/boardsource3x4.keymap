@@ -8,11 +8,11 @@
 
         default_layer { // Layer 0
             // -------------------------------------------------
-            // |     Z     |     M     |     K     |     E     |
+            // |     M     |     M     |     E     |     E     |
             // |     A     |     B     |     C     |     E     |
             // |     D     |     E     |     F     |     E     |
             bindings = <
-                &kp Z    &kp M    &kp K    &kp E
+                &kp M    &kp M    &kp E    &kp E
                 &kp A    &kp B    &kp C    &kp E
                 &kp D    &kp E    &kp F    &kp E
             >;
