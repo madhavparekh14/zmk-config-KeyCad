@@ -24,10 +24,12 @@
             // |     S    |     I     |     A     |     M     |
             // |   BTCLR  |     D     |   EQUAL   |   &trans  |
             bindings = <
-                &kp ESC      &kp W        &kp L        &kp R
-                &kp C        &kp O        &kp T        &kp M
+                &kp E        &kp H        &kp F        &kp B
+                &kp S        &kp I        &kp A        &kp M
                 &bt BT_CLR   &kp D        &kp EQUAL    &trans 
             >;
         };
     };
 };
+
+
