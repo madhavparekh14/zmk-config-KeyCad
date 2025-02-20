@@ -10,11 +10,11 @@
             // -------------------------------------------------
             // |    ESC    |     W     |     L     |     R     |
             // |     C     |     O     |     T     |     M     |
-            // |     1     |     2     |     3     |     4     |
+            // |   BTCLR   |     2     |     3     |     4     |
             bindings = <
-                &kp ESC   &kp W    &kp L    &kp R
-                &kp C        &kp O    &kp T    &kp M
-                &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_N4
+                &kp ESC      &kp W        &kp L        &kp R
+                &kp C        &kp O        &kp T        &kp M
+                &bt BT_CLR   &kp KP_N2    &kp KP_N3    &kp KP_N4
             >;
         };
     };
