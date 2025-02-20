@@ -10,11 +10,23 @@
             // -------------------------------------------------
             // |    ESC    |     W     |     L     |     R     |
             // |     C     |     O     |     T     |     M     |
-            // |   BTCLR   |     2     |     3     |     4     |
+            // |   BTCLR   |     D     |   EQUAL   |    &mo 1  |
             bindings = <
                 &kp ESC      &kp W        &kp L        &kp R
                 &kp C        &kp O        &kp T        &kp M
-                &bt BT_CLR   &kp KP_N2    &kp KP_N3    &kp KP_N4
+                &bt BT_CLR   &kp D        &kp EQUAL    &mo 1 
+            >;
+        };
+
+        3d_layer { // Layer 1
+            // -------------------------------------------------
+            // |     E    |     H     |     F     |     B     |
+            // |     S    |     I     |     A     |     M     |
+            // |   BTCLR  |     D     |   EQUAL   |   &trans  |
+            bindings = <
+                &kp ESC      &kp W        &kp L        &kp R
+                &kp C        &kp O        &kp T        &kp M
+                &bt BT_CLR   &kp D        &kp EQUAL    &trans 
             >;
         };
     };
