@@ -14,7 +14,7 @@
             bindings = <
                 &kp ESC      &kp W        &kp L        &kp R
                 &kp C        &kp O        &kp T        &kp M
-                &kp LSHIFT   &kp D        &kp RCTRL    &mo 1 
+                &kp O        &kp D        &kp R        &mo 1 
             >;
         };
 
