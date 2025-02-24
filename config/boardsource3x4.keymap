@@ -10,11 +10,11 @@
             // -------------------------------------------------
             // |    ESC    |     W     |     L     |     R     |
             // |     C     |     O     |     T     |     M     |
-            // |   BTCLR   |     D     |   EQUAL   |    &mo 1  |
+            // |   Shift   |     D     |    CMD    |    &mo 1  |
             bindings = <
                 &kp ESC      &kp W        &kp L        &kp R
                 &kp C        &kp O        &kp T        &kp M
-                &bt BT_CLR   &kp D        &kp EQUAL    &mo 1 
+                &bt LSHIFT   &kp D        &kp RCTRL    &mo 1 
             >;
         };
 
