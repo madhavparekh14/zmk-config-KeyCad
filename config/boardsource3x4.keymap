@@ -1,3 +1,4 @@
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
@@ -9,7 +10,7 @@
             // -------------------------------------------------
             // |    ESC    |     W     |     L     |     R     |
             // |     C     |     O     |     T     |     M     |
-            // |   Shift   |     D     |    CMD    |    &mo 1  |
+            // |   BTCLR   |     D     |   EQUAL   |    &mo 1  |
             bindings = <
                 &kp ESC      &kp W        &kp L        &kp R
                 &kp C        &kp O        &kp T        &kp M
