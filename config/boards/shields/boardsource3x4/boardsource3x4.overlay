@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "boardsource3x4-layouts.dtsi"
 / {
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
