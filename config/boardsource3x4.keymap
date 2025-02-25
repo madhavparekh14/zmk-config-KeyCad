@@ -10,11 +10,11 @@
             // -------------------------------------------------
             // |    ESC    |     W     |     L     |     R     |
             // |     C     |     O     |     T     |     M     |
-            // |   SHIFT   |    CTRL   |   EQUAL   |    &mo 1  |
+            // |   SHIFT   |    CTRL   |    CMD    |    &mo 1  |
             bindings = <
                 &kp ESC      &kp W        &kp L        &kp R
                 &kp C        &kp O        &kp T        &kp M
-                &kp LSHIFT   &kp D        &kp LCTRL    &mo 1 
+                &kp LSHIFT   &kp D        LEFT_COMMAND &mo 1 
             >;
         };
 
