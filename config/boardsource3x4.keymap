@@ -20,11 +20,11 @@
 
         3d_layer { // Layer 1
             // -------------------------------------------------
-            // |     E    |     H     |     F     |     B     |
+            // |     E    |     R     |     F     |     B     |
             // |     S    |     I     |     A     |     M     |
             // |   BTCLR  |     D     |   EQUAL   |   &trans  |
             bindings = <
-                &kp E        &kp H        &kp F        &kp B
+                &kp E        &kp R        &kp F        &kp B
                 &kp S        &kp I        &kp A        &kp M
                 &bt BT_CLR   &kp D        &kp EQUAL    &trans 
             >;
