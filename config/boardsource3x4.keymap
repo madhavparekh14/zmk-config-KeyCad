@@ -10,11 +10,11 @@
             // -------------------------------------------------
             // |    ESC    |     W     |     L     |     R     |
             // |     C     |     O     |     T     |     M     |
-            // |     X     |     D     |   EQUAL   |    &mo 1  |
+            // |   BTCLR   |     D     |   EQUAL   |    &mo 1  |
             bindings = <
                 &kp ESC      &kp W        &kp L        &kp R
                 &kp C        &kp O        &kp T        &kp M
-                &kp X        &kp D        &kp EQUAL    &mo 1 
+                &bt BT_CLR   &kp D        &kp EQUAL    &mo 1 
             >;
         };
 
